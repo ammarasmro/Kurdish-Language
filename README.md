@@ -16,3 +16,12 @@ Long term goals
 
 - [ ] Build an end to end ASR Pipeline
 - [ ] Use a language model
+
+
+## The Pipeline
+
+1. Get raw .sph files
+2. Convert .sph to .wav format [sph to wav converter](./utils/sph-to-wav.sh)
+3. Convert .wav to pcm-16 wav [pcm](./utils/convert_audio_pcm.py)
+4. Turn audio and transcripts to a json representation [Data Jsonifier](./utils/data_jsonifier.py)
+5. Split data into training and validation corpora
