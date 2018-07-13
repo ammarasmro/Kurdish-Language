@@ -4,6 +4,7 @@
     {
       "tensorName": "embeddings/Variable",
       "metadataPath": "log/metadata.tsv",
+      "tensorPath": "log/tensor.bytes",
       "tensorShape": [
         50000,
         128
