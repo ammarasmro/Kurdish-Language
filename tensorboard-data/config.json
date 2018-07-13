@@ -1,0 +1,20 @@
+{
+  "modelCheckpointPath": "log/model.ckpt",
+  "embeddings": [
+    {
+      "tensorName": "embeddings/Variable",
+      "metadataPath": "log/metadata.tsv",
+      "tensorShape": [
+        50000,
+        128
+      ]
+    },
+    {
+      "tensorName": "weights/Variable",
+      "tensorShape": [
+        50000,
+        128
+      ]
+    }
+  ]
+}
