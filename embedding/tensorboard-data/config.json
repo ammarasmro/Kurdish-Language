@@ -1,0 +1,11 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "Sorani",
+      "tensorShape": [50000, 128],
+      "tensorPath": "embedding/tensorboard-data/tensor.bytes",
+      "metadataPath": "embedding/tensorboard-data/metadata.tsv"
+    }
+  ],
+  "modelCheckpointPath": "Dataset"
+}
